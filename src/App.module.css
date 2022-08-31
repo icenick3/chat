@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.globalBlock {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1500px;
+    height: 800px;
+}
+
+.w1000{
+    width: 1000px;
+}
+
+.w500{
+    width: 500px;
+}
+
+.header{
+    height: 150px;
+    background: lightgray;
+    border: 1px solid black;
+    border-right: none;
+    border-bottom: none;
+}

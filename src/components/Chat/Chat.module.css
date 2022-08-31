@@ -1,0 +1,11 @@
+.chatsWindow {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    height: 625px;
+    background: white;
+    border: 1px solid black;
+    overflow: auto;
+}
+

@@ -1,0 +1,18 @@
+.searchInput {
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    top: 10px;
+    left: 38px;
+    font-size: 14px;
+    color: #5a6674;
+    width: 400px;
+    height: 30px;
+    border: #5a6674 1px solid;
+    outline: none;
+    background:  white url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/800px-Vector_search_icon.svg.png') no-repeat 10px;
+    background-size: auto 70%;
+    padding-left: 40px;
+}
+

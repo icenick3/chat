@@ -1,0 +1,47 @@
+.photo {
+    margin: 3px;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+}
+
+.contactBlock {
+margin-bottom: 20px;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    background: white;
+    border: none;
+}
+
+.contactsData {
+    display: flex;
+}
+
+.messageTime {
+    font-size: 11px;
+    margin-left: 300px;
+    margin-top: 5px;
+}
+
+.messageText {
+    color: #5a6674;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.name {
+    font-family: Ebrima;
+    font-size: 15px;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+hr{
+    margin-top: 14px;
+}

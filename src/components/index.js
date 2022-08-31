@@ -1,0 +1,6 @@
+export * from "./Contacts/ContactsList"
+export * from "./Profile/Profile"
+export * from "./FormForSearch/FormForSearch"
+export * from "./Chat/Chat"
+export * from "./FormForMessage/FormForMessage"
+export * from "./TitleOfCurrentContact/TitleOfCurrentContact"
