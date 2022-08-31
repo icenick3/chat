@@ -21,10 +21,10 @@ const Messages = ({letters, random, id, img}) => {
 
     return (
         <div className={styles.messagesBlock} ref={chatRef}>
-            {messages.map(message => {
+            {messages.map((message, i) => {
                 if (message.id === id) {
                     if (message.message) {
-                        return <div key={message.id}>
+                        return <div key={i}>
                             <div className={styles.messageUser}>
                                 {message.message}
                             </div>

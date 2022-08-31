@@ -18,6 +18,7 @@ const FormForMessage = ({takeLetter, id}) => {
 
     const onSubmit = (data) => {
         if (messageFromDb) {
+            if (data.message){
             db.ref('messages').update([...messageFromDb,
                 {
                     id: id, timeShort: new Date().toLocaleTimeString("en-US", optionsForShortDate
@@ -25,14 +26,15 @@ const FormForMessage = ({takeLetter, id}) => {
                     uniqueNumber: new Date().getTime(),
                     time: new Date().toLocaleTimeString("en-US", optionsForLargeDate), ...data
                 }])
-        } else {
+        }} else {
+            if (data.message){
             db.ref('messages').update([{
                 id: id, timeShort: new Date().toLocaleTimeString("en-US", optionsForShortDate
                 ),
                 uniqueNumber: new Date().getTime(),
                 time: new Date().toLocaleTimeString("en-US", optionsForLargeDate), ...data
             }])
-        }
+        }}
         setInputValue(null)
         reset()
     }
